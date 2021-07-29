@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".things">
+
+    <TextView
+        android:id="@+id/jobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jobs and Services"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:clickable="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/back"/>
+    <TextView
+        android:id="@+id/health"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:clickable="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/back"/>
+
+</LinearLayout>
